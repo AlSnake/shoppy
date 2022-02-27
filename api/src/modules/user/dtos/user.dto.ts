@@ -9,4 +9,7 @@ export class UserDto {
 
 	@Expose()
 	username: string;
+
+	@Expose()
+	emailVerified: boolean;
 }

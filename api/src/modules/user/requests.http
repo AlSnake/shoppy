@@ -1,7 +1,7 @@
 
 ### GET ME
 GET http://localhost:3000/users/me
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjMsImlhdCI6MTY0NTkyMzM5NSwiZXhwIjoxNjQ1OTI2OTk1fQ.fOm6ydqr9FSnR96PdvHAMg3fUTJEoVI226JDZ6PioOo
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsImlhdCI6MTY0NTkyODY4OCwiZXhwIjoxNjQ1OTMyMjg4fQ.xA-Yy4gswBl6Z2kM2BjQgvqCQAx6E_hrbXO9Da3sV0w
 
 ### Get User by Username
 GET http://localhost:3000/users/test1

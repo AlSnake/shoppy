@@ -13,4 +13,13 @@ export class User {
 
 	@Column()
 	password: string;
+
+	@Column({ default: false })
+	emailVerified: boolean;
+
+	@Column({ nullable: true })
+	emailVerifyToken: string;
+
+	@Column({ nullable: true })
+	emailVerifyTokenExpiry: number;
 }

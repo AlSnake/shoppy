@@ -38,6 +38,8 @@ lerna-debug.log*
 .env*
 config.json
 
+# OTHER
+*.sqlite
 
 # EXCLUDE
 !.env.example

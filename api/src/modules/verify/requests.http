@@ -1,0 +1,18 @@
+
+### Request Email Verification
+POST http://localhost:3000/verify/request/email
+Content-Type: application/json
+
+{
+	"email": "test@test.test"
+}
+
+### CONFIRM EMAIL
+POST http://localhost:3000/verify/confirm/email
+Content-Type: application/json
+
+{
+	"email": "test@test.test",
+	"token": "44ad025d2ed4789a280cc0f5a984419cd36a8b3d810abe1a535ca0a6cc405769"
+}
+
